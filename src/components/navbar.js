@@ -2,6 +2,7 @@
 import { Component } from "react";
 import { Menu_itens } from "./Menu_itens";
 import "./navbar.css";
+import Logo from "../IMG/Logo1.gif";
 
 class Navbar extends Component {
     state = { clicked: false };
@@ -11,10 +12,12 @@ class Navbar extends Component {
     render() {
         return (
             <nav className="navbar__ITEMS">
-                <h1 className="navbar__logo">CT</h1>
+                <h1 className="navbar__logo">
+                    <img src={Logo} alt="Logo" />
+                </h1>
                 <div className="menu-icons" onClick={this.handleClick}>
                     <i className={this.state.clicked ? "fa fa-times" : "fa fa-bars"}></i>                </div>
-                <ul className="navbar__menu">
+                <ul className={this.state.clicked ? "navbar__menu active" : "navbar__menu"}>
                     {Menu_itens.map((item, index) => {
                         return (
                             <li key={index}>

@@ -1,21 +1,54 @@
 /* Navbar */
 .navbar__ITEMS {
     display: flex;
-    flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    padding: 0 30px;
-    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
-    width: 95%;
     height: 80px;
-    border-radius: 13px;
+    padding: 0 2rem;
+    border-radius: 15px;
+    background-color: rgb(240, 240, 230);
+    box-shadow: 0 5px 15px 0 rgba(5, 5, 5, 0.966);
+    position: fixed;
+    top: 25px;
+    left: 50px;
+    right: 50px;
+    transform: translate(-50%,);
+    z-index: 9999;
+    
 }
 
+.navbar__menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+    text-align: center;
+    margin-right: -2px;
+    margin-left: 50px;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding: 0;
+    width: 100%;
+
+}
+.navbar__menu.active{
+    left: 0;
+    opacity: 1;
+    z-index: -1;
+    transition: 0.4s ease-in-out;
+}
 .navbar__logo {
     font-size: 1.5rem;
     font-weight: 600;
     color: rgb(26, 24, 24);
     text-decoration: none;
+    
+}
+.navbar__logo img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-right: 10px;
 }
 
 .navbar__links {
@@ -32,7 +65,7 @@
 }
 
 .navbar__links:hover {
-    background-color: aqua;
+    background-color: rgb(7, 107, 238);
     border-radius: 15px;
     color: #858181;
     transition: all 0.3s ease;
@@ -49,10 +82,21 @@ button {
     font-size: 0.7rem;
     font-weight: 500;
     border: none;
+    outline: none;
+    background-color: rgb(7, 107, 238);
+    border-radius: 15px;
+    color: #858181;
+    width: 150px;
+    height: 40px;
     cursor: pointer;
     transition: 0.2s ease-in-out;
 }
-
+.navbar__links-mobile:hover {
+    background-color: rgb(7, 107, 238);
+    border-radius: 15px;
+    color: #858181;
+    transition: all 0.3s ease;
+}
 button:hover {
     background-color: aqua;
     border-radius: 15px;
@@ -60,24 +104,41 @@ button:hover {
     transition: all 0.3s ease;
 }
 
+.menu-icons {
+    display: none;
+}
+
 /*media query for my navbar*/
 
 @media screen and (max-width:850px) {
+    .navbar__ITEMS {
+        z-index: 99;
+    }
+
     .navbar__menu {
         display: flex;
         flex-direction: column;
         justify-content: flex-start;
         background-color: rgb(253, 253, 251);
+        box-shadow: 0 5px 15px 0 rgba(5, 5, 5, 0.966);
+        border-radius: 15px;
         width: 100%;
         height: auto;
         position: absolute;
         top: 0;
-        left: 0;
-        opacity: 1;
+        left: -100%;
+        opacity: 0;
         align-items: stretch;
         padding: 80px 0 30px 0;
         margin: 0;
 
+
+    }
+
+    .navbar__menu.active {
+        left: 0;
+        opacity: 1;
+        z-index: -1;
     }
 
     .navbar__links {
@@ -88,29 +149,38 @@ button:hover {
     }
 
     .navbar__links:hover {
-        background-color: rgb(106, 128, 128);
         border-radius: 15px;
-        color: #d10707;
+        color: #030303;
         transition: all 0.3s ease;
     }
 
-    
-
     button {
-       display: none;
+        display: none;
     }
+
     .navbar__links-mobile {
         display: block;
         text-align: center;
         padding: 1.5rem;
         margin: auto;
         border-radius: 15px;
-        background-color: rgb(6, 141, 141);
+        background-color: rgb(6, 137, 212);
         text-decoration: none;
         font-size: 1.2rem;
         font-weight: 500;
         letter-spacing: normal;
     }
+
+    .menu-icons {
+        display: block;
+        cursor: pointer;
+    }
+
+    .menu-icons i {
+        font-size: 1.5rem;
+        color: rgb(26, 24, 24);
+    }
 }
 
+/*fim media query*/
 /*Fim do Navbar*/
