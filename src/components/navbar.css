@@ -1,0 +1,116 @@
+/* Navbar */
+.navbar__ITEMS {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 30px;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+    width: 95%;
+    height: 80px;
+    border-radius: 13px;
+}
+
+.navbar__logo {
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: rgb(26, 24, 24);
+    text-decoration: none;
+}
+
+.navbar__links {
+    text-decoration: none;
+    color: rgb(26, 24, 24);
+    font-size: 1.2rem;
+    font-weight: 500;
+    padding: 0.5rem 1rem;
+    white-space: nowrap;
+}
+
+.navbar__links i {
+    padding-right: 10px;
+}
+
+.navbar__links:hover {
+    background-color: aqua;
+    border-radius: 15px;
+    color: #858181;
+    transition: all 0.3s ease;
+}
+
+.navbar__links-mobile {
+    display: none;
+}
+
+button {
+    padding: 0.5rem 1rem;
+    white-space: nowrap;
+    border-radius: 0.3rem;
+    font-size: 0.7rem;
+    font-weight: 500;
+    border: none;
+    cursor: pointer;
+    transition: 0.2s ease-in-out;
+}
+
+button:hover {
+    background-color: aqua;
+    border-radius: 15px;
+    color: #858181;
+    transition: all 0.3s ease;
+}
+
+/*media query for my navbar*/
+
+@media screen and (max-width:850px) {
+    .navbar__menu {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        background-color: rgb(253, 253, 251);
+        width: 100%;
+        height: auto;
+        position: absolute;
+        top: 0;
+        left: 0;
+        opacity: 1;
+        align-items: stretch;
+        padding: 80px 0 30px 0;
+        margin: 0;
+
+    }
+
+    .navbar__links {
+        display: block;
+        width: 100%;
+        font-size: 1.2rem;
+        padding: 2rem 0;
+    }
+
+    .navbar__links:hover {
+        background-color: rgb(106, 128, 128);
+        border-radius: 15px;
+        color: #d10707;
+        transition: all 0.3s ease;
+    }
+
+    
+
+    button {
+       display: none;
+    }
+    .navbar__links-mobile {
+        display: block;
+        text-align: center;
+        padding: 1.5rem;
+        margin: auto;
+        border-radius: 15px;
+        background-color: rgb(6, 141, 141);
+        text-decoration: none;
+        font-size: 1.2rem;
+        font-weight: 500;
+        letter-spacing: normal;
+    }
+}
+
+/*Fim do Navbar*/
