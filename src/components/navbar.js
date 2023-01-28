@@ -19,7 +19,8 @@ class Navbar extends Component {
                     <img src={Logo} alt="Logo" />
                 </h1>
                 <div className="menu-icons" onClick={this.handleClick}>
-                    <i className={this.state.clicked ? "fa fa-times" : "fa fa-bars"}></i>                </div>
+                    <i className={this.state.clicked ? "fa fa-times" : "fa fa-bars"}></i>               
+                 </div>
                 <ul className={this.state.clicked ? "navbar__menu active" : "navbar__menu"}>
                     {Menu_itens.map((item, index) => {
                         return (
