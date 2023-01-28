@@ -1,15 +1,20 @@
 
-# City_Tour
+# CT_TOUR
+Pequeno projeto usando o Reactjs,website sobre cidades do Brasil.
+o CT(Sim este é o nome, sou péssimo em dar nome às coisas),
+basicamente é um site mostrando as belezas naturais de cada estado do país(No caso ai só tem sergipe😜)
 
-**Em construção,esta aplicação se encontra em fase de construção**
 
 
+# Aplicação
 
-# DEPLOY INICIAL
+# Desktop 
 
-![Captura de Tela (25)](https://user-images.githubusercontent.com/78994881/215170228-bd93ce76-2a82-4512-bd4b-a8a7060f5c9a.png)
-![Captura de Tela (26)](https://user-images.githubusercontent.com/78994881/215170229-0fbac671-c5e1-45cc-8e89-24b9e9cc9b26.png)
-![Captura de Tela (27)](https://user-images.githubusercontent.com/78994881/215170234-920e0286-5ddd-42d0-97d5-f7c6f387a443.png)
+![Captura de Tela (30)](https://user-images.githubusercontent.com/78994881/215290181-373a271f-e207-40c8-8b0e-1e60625208c8.png)
+
+# Mobile
+
+![Captura de Tela (31)](https://user-images.githubusercontent.com/78994881/215290188-635c713f-d303-4d24-bd90-e9b7aca06cf3.png)
 
 ## Referência
 
