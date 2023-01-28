@@ -2,6 +2,7 @@ import React from 'react'
 import Navbar from '../components/navbar'
 import Hero from '../components/Hero'
 import Footer from '../components/Footer'
+import Aboutus from '../components/About'
 function About() {
     return (
         <>
@@ -12,7 +13,8 @@ function About() {
                 title="Xingo-agreste Sergipano"
                 btnClass="Hide"
             />
-             <Footer />
+            <Aboutus />
+            <Footer />
         </>
     )
 }

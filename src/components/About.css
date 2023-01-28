@@ -1,0 +1,31 @@
+.about{
+    background-color: #f4f4f4;
+    padding: 20px;
+    margin: 20px;
+    padding: 2rem 1rem;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(250, 246, 246, 0.2);
+}
+.about h1{
+    font-size: 30px;
+    margin-bottom: 20px;
+    align-items: center;
+    text-align: start;
+}
+.about p{
+    font-size: 20px;
+    line-height: 1.5;
+}
+@media screen and (max-width: 768px){
+    .about{
+        margin: 0;
+        border-radius: 0;
+        padding: 2rem 1rem;
+    }
+    .about h1{
+        font-size: 25px;
+    }
+    .about p{
+        font-size: 18px;
+    }
+}
