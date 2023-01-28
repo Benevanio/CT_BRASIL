@@ -36,6 +36,7 @@
 
 .Img img {
     width: 49%;
+    
     height: 350px;
     object-fit: cover;
     border-radius: 10px;
@@ -46,4 +47,25 @@
    position: absolute;
    top: -10%;
    right: 0;
+}
+@media screen and (max-width: 850px) {
+    .destination {
+        margin: 4rem 2rem;
+    }
+    .Firts {
+        display: flex;
+        flex-direction: column-reverse;
+        margin-top: 2.5rem;
+    }
+    .Desc_text {
+        width: 100%;
+        text-align: center;
+        font-size: 1.1rem;
+    }
+    .Img {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        z-index: -99;
+    }
 }
