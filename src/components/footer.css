@@ -1,0 +1,23 @@
+.footer{
+    background-image: url(https://user-images.githubusercontent.com/78994881/215216308-e800b67f-ce99-4b0a-a480-0adb2aadc76e.jpg);
+    color: rgb(3, 3, 3);
+    padding: 4px;
+    text-align: center;
+    font-size: 25px;
+
+}
+.social{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px 0;
+}
+.social a{
+    margin: 0 10px;
+    color: rgb(14, 13, 13);
+    font-size: 28px;
+}
+p a{
+    color: rgb(14, 13, 13);
+    text-decoration: none;
+}
