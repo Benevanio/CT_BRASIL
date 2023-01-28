@@ -25,7 +25,7 @@ export const Menu_itens = [
     },
     {
         title: 'Signup',
-        url: '/signup',
+        url: '/',
         cName: 'navbar__links-mobile',
         icon: 'fa fa-user-plus'
     }

@@ -3,7 +3,14 @@
     height: 100vh;
     position: relative;
 }
-
+.like__Hero{
+    width: 100%;
+    height: 70vh;
+    position: relative;
+}
+.like__Hero h1{
+    padding: 4rem !important;
+}
 img {
     width: 100%;
     height: 100%;
@@ -33,9 +40,10 @@ img {
 .hero__text p {
     font-size: 1.3rem;
     color: #fff;
-    padding:  0.5rem 0 2rem 0;
+    padding: 0.5rem 0 2rem 0;
 }
-.hero__text .show{
+
+.hero__text .show {
     text-decoration: none;
     background-image: url(https://user-images.githubusercontent.com/78994881/215216308-e800b67f-ce99-4b0a-a480-0adb2aadc76e.jpg);
     padding: 1rem 2rem;
@@ -44,18 +52,25 @@ img {
     letter-spacing: 2px;
     color: black;
 }
-@media screen and (max-width: 555px){
-    .hero__text h1{
+.hero__text .Hide {
+    display: none;
+    background-image: url(https://user-images.githubusercontent.com/78994881/215216308-e800b67f-ce99-4b0a-a480-0adb2aadc76e.jpg);
+    
+}
+
+@media screen and (max-width: 555px) {
+    .hero__text h1 {
         font-size: 10px 20px;
     }
-    .hero__text p{
+
+    .hero__text p {
         font-size: 1.1rem;
         padding: 0 0 2rem 0;
     }
-    .hero__text .show{
-        padding: 1rem 1.1rem;
-        border-radius: 6px;
-        color: black;
-    }
 
+    .hero__text .show {
+        padding: 0.6rem 1.1rem;
+        border-radius: 6px;
+        font-size: 1rem;
+    }
 }

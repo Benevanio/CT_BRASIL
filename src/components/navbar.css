@@ -104,7 +104,12 @@ button {
 }
 
 button:hover {
-    background-color: aqua;
+    backdrop-filter: blur(00.05rem);
+    -o-backdrop-filter: blur(00.05rem);
+    -ms-backdrop-filter: blur(00.05rem);
+    -moz-backdrop-filter: blur(00.05rem);
+    -webkit-backdrop-filter: blur(00.05rem);
+    background-color: rgb(253, 253, 251);
     border-radius: 15px;
     color: #858181;
     transition: all 0.3s ease;
@@ -183,6 +188,12 @@ button:hover {
         font-size: 1.2rem;
         font-weight: 500;
         letter-spacing: normal;
+        backdrop-filter: blur(00.05rem);
+        -o-backdrop-filter: blur(00.05rem);
+        -ms-backdrop-filter: blur(00.05rem);
+        -moz-backdrop-filter: blur(00.05rem);
+        -webkit-backdrop-filter: blur(00.05rem);
+        background-color: rgb(253, 253, 251);
     }
 
     .menu-icons {
