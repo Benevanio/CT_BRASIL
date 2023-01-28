@@ -2,6 +2,7 @@ import React from 'react'
 import Navbar from '../components/navbar'
 import Hero from '../components/Hero'
 import Footer from '../components/Footer'
+import Contactus from '../components/ContacForm'
 function Contact() {
     return (
         <>
@@ -12,6 +13,7 @@ function Contact() {
                 title="Contato"
                 btnClass="Hide"
             />
+            <Contactus />
              <Footer />
         </>
     )

@@ -7,36 +7,20 @@ function About() {
         <div className="about">
             <h1>Nossa Historia</h1>
             <p>
-                Lorem ipsum dolor sit amet 
-                consectetur adipisicing elit.
-                Lorem ipsum dolor sit amet
-                Lorem ipsum dolor sit amet 
-                consectetur adipisicing elit.
-                Lorem ipsum dolor sit amet
+               Nos somos uma empresa que nasceu com uma 
+               visao de conectar o 
+               brasileiro para com as beleza do seu pais.
+            
             </p>
             <h1>Nossa Missao</h1>
             <p>
-                Lorem ipsum dolor sit amet 
-                consectetur adipisicing elit.
-                Lorem ipsum dolor sit amet
-                Lorem ipsum dolor sit amet 
-                consectetur adipisicing elit.
-                Lorem ipsum dolor sit amet
+                A CT company tem como missao conectar o 
+                brasileiro para com as beleza do seu pais.
+                Visando uma integracao entre os brasileiros
             </p>
             <h1>Sua Visao</h1>
             <p>
-                Lorem ipsum dolor sit amet 
-                consectetur adipisicing elit.
-                Lorem ipsum dolor sit amet
-                Lorem ipsum dolor sit amet 
-                consectetur adipisicing elit.
-                Lorem ipsum dolor sit amet
-                Lorem ipsum dolor sit amet 
-                consectetur adipisicing elit.
-                Lorem ipsum dolor sit amet
-                Lorem ipsum dolor sit amet 
-                consectetur adipisicing elit.
-                Lorem ipsum dolor sit amet
+                Vamos criar juntos um futuro melhor para o nosso pais!!
             </p>
         </div>
     )
