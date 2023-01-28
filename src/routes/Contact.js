@@ -1,6 +1,7 @@
 import React from 'react'
 import Navbar from '../components/navbar'
 import Hero from '../components/Hero'
+import Footer from '../components/Footer'
 function Contact() {
     return (
         <>
@@ -11,6 +12,7 @@ function Contact() {
                 title="Contato"
                 btnClass="Hide"
             />
+             <Footer />
         </>
     )
 }
