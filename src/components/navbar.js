@@ -1,10 +1,13 @@
+/* eslint-disable react-hooks/rules-of-hooks */
 /* eslint-disable jsx-a11y/anchor-is-valid */
-import { Component } from "react";
+import React, { Component } from "react";
 import { Menu_itens } from "./Menu_itens";
 import "./navbar.css";
 import Logo from "../IMG/Logo1.gif";
-
+import { Link } from "react-router-dom";
 class Navbar extends Component {
+    
+
     state = { clicked: false };
     handleClick = () => {
         this.setState({ clicked: !this.state.clicked });
@@ -21,10 +24,10 @@ class Navbar extends Component {
                     {Menu_itens.map((item, index) => {
                         return (
                             <li key={index}>
-                                <a  href="#" className={item.cName}>
+                                <Link  to={item.url} className={item.cName}>
                                     <i className={item.icon}></i>
                                     {item.title}
-                                </a>
+                                </Link>
                             </li>
                         )
 

@@ -7,14 +7,15 @@
     padding: 0 2rem;
     border-radius: 15px;
     background-color: rgb(240, 240, 230);
+    background-image: url(https://user-images.githubusercontent.com/78994881/215216308-e800b67f-ce99-4b0a-a480-0adb2aadc76e.jpg);
     box-shadow: 0 5px 15px 0 rgba(5, 5, 5, 0.966);
     position: fixed;
     top: 25px;
     left: 50px;
     right: 50px;
-    transform: translate(-50%,);
+    transform: translate(-50%, );
     z-index: 9999;
-    
+
 }
 
 .navbar__menu {
@@ -31,19 +32,22 @@
     width: 100%;
 
 }
-.navbar__menu.active{
+
+.navbar__menu.active {
     left: 0;
     opacity: 1;
     z-index: -1;
     transition: 0.4s ease-in-out;
 }
+
 .navbar__logo {
     font-size: 1.5rem;
     font-weight: 600;
     color: rgb(26, 24, 24);
     text-decoration: none;
-    
+
 }
+
 .navbar__logo img {
     width: 50px;
     height: 50px;
@@ -91,12 +95,14 @@ button {
     cursor: pointer;
     transition: 0.2s ease-in-out;
 }
+
 .navbar__links-mobile:hover {
     background-color: rgb(7, 107, 238);
     border-radius: 15px;
     color: #858181;
     transition: all 0.3s ease;
 }
+
 button:hover {
     background-color: aqua;
     border-radius: 15px;
@@ -120,6 +126,12 @@ button:hover {
         flex-direction: column;
         justify-content: flex-start;
         background-color: rgb(253, 253, 251);
+        background-image: url(https://user-images.githubusercontent.com/78994881/215216308-e800b67f-ce99-4b0a-a480-0adb2aadc76e.jpg);
+        filter: blur(00.05rem);
+        -o-filter: blur(00.05rem);
+        -ms-filter: blur(00.05rem);
+        -moz-filter: blur(00.05rem);
+        -webkit-filter: blur(00.05rem);
         box-shadow: 0 5px 15px 0 rgba(5, 5, 5, 0.966);
         border-radius: 15px;
         width: 100%;
@@ -139,6 +151,7 @@ button:hover {
         left: 0;
         opacity: 1;
         z-index: -1;
+        transition: 0.4s ease-in-out;
     }
 
     .navbar__links {
@@ -156,6 +169,7 @@ button:hover {
 
     button {
         display: none;
+
     }
 
     .navbar__links-mobile {
@@ -163,8 +177,8 @@ button:hover {
         text-align: center;
         padding: 1.5rem;
         margin: auto;
-        border-radius: 15px;
-        background-color: rgb(6, 137, 212);
+        border-radius: 50px;
+        color: #030303;
         text-decoration: none;
         font-size: 1.2rem;
         font-weight: 500;
