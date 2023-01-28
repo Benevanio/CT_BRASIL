@@ -2,6 +2,7 @@ import React from 'react'
 import Navbar from '../components/navbar'
 import Hero from '../components/Hero'
 import Footer from '../components/Footer'
+import Trip from '../components/Trip'
 
 function Service() {
     return (
@@ -12,6 +13,7 @@ function Service() {
                 title="Trilhas ecológicas"
                 btnClass="Hide"
             />
+            <Trip />
             <Footer />
         </>
     )
