@@ -11,7 +11,7 @@ const Trip = () => {
             <p>
                 Veja as viagens que fizemos recentemente.
             </p>
-            <div className="t-card">
+            <div className="tripcard">
                 <TripDate
                     img={FirstImg}
                     heading="Praia do Mosqueiro"
